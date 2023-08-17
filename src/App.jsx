@@ -1,7 +1,9 @@
+import MainBanner from "./components/MainBanner"
+
 function App() {
   return (
     <>
-      <h1>Portfolio</h1>
+      <MainBanner />
     </>
   )
 }
