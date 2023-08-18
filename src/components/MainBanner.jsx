@@ -5,6 +5,7 @@ import PortfolioPhoto from "../assets/portfolio-photo.jpg";
 const MainBanner = () => {
   return (
     <Grid
+      id="home"
       container
       sx={{
         backgroundColor: "#512B81",
@@ -13,7 +14,7 @@ const MainBanner = () => {
         paddingY: "1.5rem",
       }}
     >
-      <Grid item md={6}>
+      <Grid item xs={12} md={6} m="auto">
         <img
           style={{
             height: "12rem",
@@ -29,7 +30,7 @@ const MainBanner = () => {
           Software Developer
         </Typography>
       </Grid>
-      <Grid item md={6} sx={{ margin: "auto" }}>
+      <Grid item xs={12} md={6} m="auto">
         <Typography variant="h4">About me</Typography>
         <Typography variant="p">
           Hi! I'm Ivette, an enthusiast for quality software development and
