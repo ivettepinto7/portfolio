@@ -8,10 +8,9 @@ const MainBanner = () => {
       id="home"
       container
       sx={{
-        backgroundColor: "#512B81",
-        color: "white",
+        backgroundColor: "#F4D160",
         textAlign: "center",
-        paddingY: "1.5rem",
+        paddingY: "3rem",
       }}
     >
       <Grid item xs={12} md={6} m="auto">
@@ -19,19 +18,19 @@ const MainBanner = () => {
           style={{
             height: "12rem",
             borderRadius: "20%",
-            border: "0.2rem solid #8CABFF",
+            border: "0.2rem solid #75C2F6",
           }}
           src={PortfolioPhoto}
           alt="Portfolio photo"
         />
         <Typography variant="h4">Ivette Carolina Pinto León</Typography>
-        <hr style={{ color: "#8CABFF", width: "70%" }} />
+        <hr style={{ width: "70%" }} />
         <Typography sx={{ letterSpacing: "0.5rem" }} variant="h6">
           Software Developer
         </Typography>
       </Grid>
       <Grid item xs={12} md={6} m="auto">
-        <Typography variant="h4">About me</Typography>
+        <Typography variant="h4"><b>About me</b></Typography>
         <Typography variant="p">
           Hi! I'm Ivette, an enthusiast for quality software development and
           passionate about programming. I'm currently in my last year of
