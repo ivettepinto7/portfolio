@@ -16,11 +16,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const contactInfo = [
   {
-    icon: <AddIcCallIcon sx={{ fontSize: "8rem" }} />,
-    info: "(+503) 7862-5948",
-    action: null,
-  },
-  {
     icon: <EmailIcon sx={{ fontSize: "8rem" }} />,
     info: "ivettepinto00@gmail.com",
     action: null,
